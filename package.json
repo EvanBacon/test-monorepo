@@ -1,0 +1,35 @@
+{
+  "name": "autorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "lerna run build --parallel -- --watch",
+    "prepare": "lerna run prepare --parallel",
+    "build": "lerna run build --stream",
+    "test": "lerna run test --parallel",
+    "lint": "lerna run lint --parallel",
+    "publish:version": "lerna version --conventional-commits --yes",
+    "publish:packages": "lerna publish from-package --yes"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/error": "^3.0.0",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.2",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "conventional-changelog-conventionalcommits": "^4.6.3",
+    "lerna": "3.4.1",
+    "multi-semantic-release": "^2.11.1",
+    "prettier": "^2.2.1",
+    "remark-cli": "^9.0.0",
+    "remark-validate-links": "^10.0.2",
+    "semantic-release": "^19.0.2",
+    "typescript": "^4.2.4"
+  }
+}
