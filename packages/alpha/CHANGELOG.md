@@ -1,3 +1,10 @@
+### alpha [1.1.1](https://github.com/EvanBacon/test-monorepo/compare/alpha@1.1.0...alpha@1.1.1) (2022-03-11)
+
+
+### Bug fixes
+
+* **alpha:** change message 3 ([#5](https://github.com/EvanBacon/test-monorepo/issues/5)) ([db3fb37](https://github.com/EvanBacon/test-monorepo/commit/db3fb37613e9e30c749c5ffaeabb1d7fcec07a89))
+
 ## alpha [1.1.0](https://github.com/EvanBacon/test-monorepo/compare/alpha@1.0.0...alpha@1.1.0) (2022-03-11)
 
 
