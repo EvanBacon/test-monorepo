@@ -1,1 +1,1 @@
-console.log("beta-foobar-v1");
+console.log("beta-foobar-v2");
