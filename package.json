@@ -9,7 +9,8 @@
     "test": "lerna run test --parallel",
     "lint": "lerna run lint --parallel",
     "publish:version": "lerna version --conventional-commits --yes",
-    "publish:packages": "lerna publish from-package --yes"
+    "publish:packages": "lerna publish from-package --yes",
+    "publish:dry-run": "multi-semantic-release --dry-run"
   },
   "workspaces": [
     "packages/*"
