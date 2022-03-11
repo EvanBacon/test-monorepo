@@ -1,3 +1,10 @@
+## alpha [1.1.0](https://github.com/EvanBacon/test-monorepo/compare/alpha@1.0.0...alpha@1.1.0) (2022-03-11)
+
+
+### New features
+
+* **alpha:** added console log ([#3](https://github.com/EvanBacon/test-monorepo/issues/3)) ([4045205](https://github.com/EvanBacon/test-monorepo/commit/4045205a40ce9d30407397b9fbcaa0ec1ba00b4b))
+
 ## alpha 1.0.0 (2022-03-11)
 
 
