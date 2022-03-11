@@ -30,7 +30,7 @@ module.exports = {
     },
   ],
   tagFormat: "${version}",
-  repositoryUrl: "https://github.com/EvanBacon/autorepo.git",
+  repositoryUrl: "https://github.com/EvanBacon/test-monorepo.git",
   plugins: [
     [
       "@semantic-release/commit-analyzer",
