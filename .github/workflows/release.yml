@@ -23,7 +23,13 @@ jobs:
       # https://github.com/actions/setup-node#v2
       - uses: actions/setup-node@v2
 
+      - uses: actions/cache@v2
+        with:
+          path: "**/node_modules"
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+
       - run: yarn install --frozen-lockfile --check-files
+
       - run: yarn lerna run prepare --stream
 
       # https://github.com/dhoulb/multi-semantic-release
