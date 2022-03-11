@@ -1,1 +1,1 @@
-console.log("foobar");
+console.log("alpha-foobar-v2");
